@@ -9,8 +9,9 @@ fields:
     name: publishedAt
     label: publishedAt
     default: String
-    export_format: YYY-MM-DD
-    time_format:
+    config:
+      export_format: YYY-MM-DD
+      time_format:
   - type: textarea
     name: summary
     label: summary
