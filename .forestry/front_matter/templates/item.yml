@@ -11,3 +11,5 @@ fields:
 - type: textarea
   name: summary
   label: summary
+pages:
+- data/item/new-post-from-foresty.mdx
