@@ -10,7 +10,7 @@ fields:
   label: publishedAt
   default: 212021-03-25
   config:
-    export_format: '"YYY-MM-DD"'
+    export_format: '"YYYY-MM-DD"'
     time_format: 
 - type: textarea
   name: summary
