@@ -16,4 +16,5 @@ fields:
     name: summary
     label: summary
 pages:
+  - data/item/new-post-from-foresty-2.mdx
   - data/item/new-post-from-foresty.mdx
