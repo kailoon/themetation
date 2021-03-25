@@ -1,13 +1,9 @@
 import { getAllFilesFrontMatter } from '@lib/mdx'
 
 export default function Home({ items }) {
-	const filteredBlogPosts = items
-		.sort(
-			(a, b) =>
-				Number(new Date(b.publishedAt)).toString() -
-				Number(new Date(a.publishedAt)).toString()
-		)
-		.filter((frontMatter) => frontMatter.title.toLowerCase())
+	const filteredBlogPosts = items.sort(
+		(a, b) => Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+	)
 
 	return (
 		<div>
