@@ -2,17 +2,18 @@
 label: Item
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: title
-  - type: datetime
-    name: publishedAt
-    label: publishedAt
-    default: String
-    export_format: YYY-MM-DD
-    time_format:
-  - type: textarea
-    name: summary
-    label: summary
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: publishedAt
+  label: publishedAt
+  default: String
+  export_format: YYY-MM-DD
+  time_format: 
+- type: textarea
+  name: summary
+  label: summary
 pages:
-  - data/item/new-post-from-foresty.mdx
+- data/item/new-post-from-foresty-2.mdx
+- data/item/new-post-from-foresty.mdx
